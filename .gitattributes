@@ -1,0 +1,10 @@
+# Godot Asset Library downloads the repository ZIP: ship only the addon, its licence and the readme.
+* text=auto eol=lf
+/demo export-ignore
+/tests export-ignore
+/tools export-ignore
+/listing export-ignore
+/project.godot export-ignore
+/Makefile export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
