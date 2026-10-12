@@ -38,7 +38,7 @@ click or press Space for a hit, hold Shift for a heavy one.
 
 The full edition, Wallop, adds squash and stretch, hit flash, knockback,
 damage numbers and a one-call `impact()`; see
-https://pnscripts.com/marketplace/wallop. Lite is complete on its own.
+https://pnscripts.com/marketplace/godot-wallop. Lite is complete on its own.
 
 ## Tests
 
