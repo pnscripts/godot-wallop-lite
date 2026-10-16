@@ -3,6 +3,8 @@
 Free game feel helpers for Godot 4 (MIT): **trauma-based camera shake** for 2D
 and 3D and **hit-stop** (freeze frames). Each is a node you drop into a scene.
 
+![The demo in a browser: hits shake the camera and freeze time for a few frames](https://raw.githubusercontent.com/pnscripts/godot-wallop-lite/main/listing/preview-demo.gif)
+
 ![Two nodes, two lines of code](listing/preview-code-1280x720.png)
 
 ## Quick start
@@ -14,8 +16,12 @@ and 3D and **hit-stop** (freeze frames). Each is a node you drop into a scene.
    **WallopLiteHitStop** node anywhere in the scene.
 3. On a hit: `$Camera2D/Shake.add_trauma(0.5)` and `$HitStop.freeze(0.06)`.
 
-The demo (`demo/demo.tscn`, the project's main scene) does exactly this:
-click or press Space for a hit, hold Shift for a heavy one.
+The demo (`demo/demo.tscn`, the project's main scene) does exactly this on a
+punching bag, with meters for trauma and time scale: click, tap or press Space
+for a hit, hold Shift (or put down a second finger) for a heavy one. It is
+checked in a web export in Chrome (`make web-check`: the heavy hit takes the
+time scale to 0 and back to 1, touch taps are not doubled by mouse emulation,
+0 console errors); the GIF above is made from that run.
 
 ## Nodes
 
